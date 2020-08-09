@@ -35,6 +35,9 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
   }
  });
 
+client2.on('ready', () => {
+  console.log(`Logged in as ${client2.user.tag}!`);  
+});
 
 client2.on('ready', async() => {
 var server = "741736299269980311"; // ايدي السررفر
@@ -59,6 +62,9 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
   
+  client3.on('ready', () => {
+  console.log(`Logged in as ${client3.user.tag}!`);  
+});
   
   client3.on('ready', async() => {
 var server = "741736299269980311"; // ايدي السررفر
@@ -83,6 +89,9 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
   
+  client4.on('ready', () => {
+  console.log(`Logged in as ${client4.user.tag}!`);  
+});
   
     client4.on('ready', async() => {
 var server = "741736299269980311"; // ايدي السررفر
@@ -107,6 +116,9 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
     
+    client5.on('ready', () => {
+  console.log(`Logged in as ${client5.user.tag}!`);  
+});
     
         client5.on('ready', async() => {
 var server = "741736299269980311"; // ايدي السررفر
